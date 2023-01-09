@@ -17,3 +17,7 @@ docker build --platform linux/amd64 -t headless-chrome .
 ```bash
 docker run -p 3000:3000 headless-chrome
 ```
+4. Visit the following URL
+```
+localhost:3000/screenshot
+```
