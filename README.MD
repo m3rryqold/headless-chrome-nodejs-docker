@@ -9,6 +9,7 @@ cd headless-chrome-nodejs-docker
 ```bash
 docker build -t headless-chrome .
 ```
+![](2023-01-09-13-21-20.png)
 if you encounter platform related issues, e.g running it on a MacOS, you can use the following command
 ```bash
 docker build --platform linux/amd64 -t headless-chrome .
@@ -17,6 +18,7 @@ docker build --platform linux/amd64 -t headless-chrome .
 ```bash
 docker run -p 3000:3000 headless-chrome
 ```
+![](2023-01-09-13-22-19.png)
 4. Visit the following URL
 ```
 localhost:3000/screenshot
