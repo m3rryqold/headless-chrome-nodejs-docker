@@ -2,7 +2,7 @@
 ## Steps to run the image
 1. Clone the repository
 ```bash
-git clone
+git clone https://github.com/m3rryqold/headless-chrome-nodejs-docker.git
 cd headless-chrome-nodejs-docker
 ```
 2. Build the image
